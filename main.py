@@ -5,6 +5,7 @@ import random
 import string
 
 token = 'put your bot token here inside comas'
+verified_role_id = "put your verified role ID here inside the comas"  # this will be used to give user verified role once they successfully verify
 
 
 intents = discord.Intents.default()
@@ -28,9 +29,7 @@ def generate_random_string(length):
 
 def add_role(server_id, user_id):
 
-    role_id = '1216565165856784454'
-
-    url = f'https://discord.com/api/v10/guilds/{server_id}/members/{user_id}/roles/{role_id}'
+    url = f'https://discord.com/api/v10/guilds/{server_id}/members/{user_id}/roles/{verified_role_id}'
 
     headers = {
         'Authorization': f'Bot {token}'
