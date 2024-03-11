@@ -6,6 +6,8 @@ The command will come with the option that'll ask you to select a verification c
 
 when button is pressed the code will generate a random code for users to type in the form.
 
+remember to install discord and requests module in your terminal/shell by typing "pip install discord" and "pip install requests"
+
 the code might get updates in the future so stay tuned :]
 
 made by: mr_baconhat :]
