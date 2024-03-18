@@ -27,7 +27,7 @@ ________________________________________________________________________________
 '''
 
 
-def generate_random_strings(length):
+def generate_random_string(length):
     result = ''
     for count in range(length):
         if random.choice([True, False]):
